@@ -9,6 +9,8 @@ if [ ! -d "/BlankProject/Assets" ]; then
   mkdir /BlankProject/Assets
 fi
 
+  echo "UPM: \"$UPM_USER_CONFIG_FILE\""
+
 if [[ -n "$UNITY_SERIAL" && -n "$UNITY_EMAIL" && -n "$UNITY_PASSWORD" ]]; then
   #
   # SERIAL LICENSE MODE
